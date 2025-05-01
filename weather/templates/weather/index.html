@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Weather forcast</title>
+        <script src = "{% static 'weather/index.js' %}"></script>
+    </head>
+    <body>
+        <h1 class = 'header'>
+            Weather
+        </h1>
+        <div class = 'body'>
+            <div class = 'searchbox'>
+                <form>
+                    <input type = 'text' placeholder = 'enter location' class = 'location'>
+                    <input type = 'submit' class = 'btn'>
+                </form>
+            </div>
+            <div class = 'result'>
+
+            </div>
+        </div>
+    </body>
+</html>
