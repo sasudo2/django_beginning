@@ -1,0 +1,52 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 100;
+    padding-top: 15px;
+    font-family: "Chewy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+hr{
+    height: 5px;
+    background-color: grey;
+    border-style: none;
+    opacity: 100%;
+    margin: 5px;
+}
+
+.body {
+    margin-top: 70px; /* Add margin to push content below fixed header */
+    display: flex;
+    width: 100%;
+
+}
+
+.to_do_tasks {
+    width: 65%;
+
+    margin-right: 35%; /* Make room for fixed add_tasks */
+    padding: 5px;
+    overflow-y: auto;
+}
+
+.add_tasks {
+    position: fixed;
+    top: 70px; /* Adjust based on header + line height */
+    right: 0;
+    width: 35%;
+    height: calc(100vh - 70px);
+  
+    padding: 5px;
+    padding-top: 15px;
+    overflow-y: auto;
+}
+
+.task {
+    padding: 1%;
+}
