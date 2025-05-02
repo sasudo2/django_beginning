@@ -1,0 +1,24 @@
+.header {
+    text-align: center;
+    background-color:  white;
+    z-index: 100;
+}
+
+.all_blogs{
+    display: flex;
+}
+
+.new_blogs{
+    width: 40%;
+    padding: 10px;
+    margin: 5px;
+}
+
+.open_blog{
+    width: 60%;
+}
+
+.blog_image{
+    width: 80%;
+    display: block;
+}
