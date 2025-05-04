@@ -25,4 +25,5 @@ urlpatterns = [
     path('todo/', include("todo.urls")),
     path('weather/', include('weather.urls')),
     path('blogger/', include("blogger.urls")),
+    path('counter/', include("counter.urls")),
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'todo',
     'weather',
     'blogger',
+    'counter',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
